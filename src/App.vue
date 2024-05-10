@@ -4,11 +4,11 @@
       <h1><strong style="color: yellow;">Selamat Datang di Aplikasi Input Data</strong></h1>
       <div>
         <label for="name"><strong style="color: yellow;">Nama:</strong></label>
-        <input type="text" id="name" v-model="name" placeholder="Masukkan nama Anda" style="font-weight: bold; color: white;">
+        <input type="text" id="name" v-model="name" placeholder="Masukkan nama Anda" style="font-weight: bold; color: black;">
       </div>
       <div>
         <label for="email"><strong style="color: yellow;">Email:</strong></label>
-        <input type="email" id="email" v-model="email" placeholder="Masukkan alamat email Anda" style="font-weight: bold; color: white;">
+        <input type="email" id="email" v-model="email" placeholder="Masukkan alamat email Anda" style="font-weight: bold; color: black;">
       </div>
       <button @click="submitData"><strong>Kirim</strong></button>
       <div v-if="submitted" class="result-container">
